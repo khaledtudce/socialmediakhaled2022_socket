@@ -4,13 +4,20 @@
   "description": "y",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "build": "webpack --mode development",
+    "start": "nodemon index.js",
+    "start:prod": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.20",
-    "socket.io": "^4.5.4"
+    "socket.io": "^4.5.4",
+    "webpack": "^5.82.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.2"
   }
 }
