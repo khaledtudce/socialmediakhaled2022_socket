@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "html-webpack-plugin": "^5.5.1",
     "nodemon": "^2.0.20",
     "socket.io": "^4.5.4",
     "webpack": "^5.82.0",
