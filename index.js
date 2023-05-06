@@ -1,5 +1,5 @@
 const io = require("socket.io")(8900, {
-  cors: { origin: "http://localhost:3000" },
+  cors: { origin: "*" }, //allowed all user ip to access it for now
 });
 
 let users = [];
