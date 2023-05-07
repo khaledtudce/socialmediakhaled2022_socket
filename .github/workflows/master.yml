@@ -51,4 +51,4 @@ jobs:
              git pull origin master --rebase
              npm install
              npm run build
-             pm2 restart socket_chatting
+             pm2 restart socket_messgage
